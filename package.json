@@ -1,7 +1,7 @@
 {
-    "name": "npm-package-boilerplate",
+    "name": "@lukestanbery/ledger",
     "version": "1.0.0",
-    "description": "Boilerplate NPM package.",
+    "description": "A custom logging package.",
     "source": "src/index.js",
     "main": "dist/index.js",
     "targets": {
@@ -20,8 +20,19 @@
     "files": [
         "dist/*"
     ],
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/LukeStanbery89/ledger.git"
+    },
+    "keywords": [
+        "logging"
+    ],
     "author": "Luke Stanbery",
     "license": "MIT",
+    "bugs": {
+        "url": "https://github.com/LukeStanbery89/ledger/issues"
+    },
+    "homepage": "https://github.com/LukeStanbery89/ledger#readme",
     "devDependencies": {
         "@jest/types": "^29.1.2",
         "eslint": "^8.24.0",
