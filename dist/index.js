@@ -1,2 +1,2 @@
-function e(){return"Hello, World!"}Object.defineProperty(module.exports,"helloWorld",{get:()=>e,set:void 0,enumerable:!0,configurable:!0});
+Object.defineProperty(module.exports,"__esModule",{value:!0,configurable:!0}),Object.defineProperty(module.exports,"default",{get:()=>e,set:void 0,enumerable:!0,configurable:!0});class e{static log(...e){console.log(...e)}static error(...e){console.error(...e)}static warn(...e){console.warn(...e)}static info(...e){console.info(...e)}static debug(...e){console.debug(...e)}}
 //# sourceMappingURL=index.js.map
