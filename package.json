@@ -1,5 +1,5 @@
 {
-    "name": "npm-package-boilerplate",
+    "name": "@lukestanbery/ledger",
     "version": "0.1.0",
     "description": "A template repository for npm packages.",
     "source": "src/index.ts",
