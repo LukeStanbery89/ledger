@@ -1,1 +1,1 @@
-export type JustMyType = any;
+export type LogArgs = any[];
