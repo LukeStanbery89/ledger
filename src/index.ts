@@ -21,4 +21,8 @@ export default class Logger {
     public static debug(...message: LogArgs) {
         console.debug(...message);
     }
+
+    public static stdout(...message: LogArgs) {
+        process.stdout.write(message.join(" "));
+    }
 }
