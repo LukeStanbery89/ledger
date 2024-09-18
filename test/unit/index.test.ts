@@ -40,4 +40,10 @@ describe("Logger", () => {
         Logger.debug("This is a debug message");
         expect(console.debug).toHaveBeenCalledWith("This is a debug message");
     });
+
+    it("should log a message to stdout", () => {
+        jest.spyOn(process.stdout, "write").mockImplementation();
+        Logger.stdout("This is a stdout message");
+        expect(process.stdout.write).toHaveBeenCalledWith("This is a stdout message");
+    });
 });
